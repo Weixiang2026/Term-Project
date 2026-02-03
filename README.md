@@ -22,7 +22,7 @@ This project will use SDG indicator data and Canada-focused energy datasets to c
 该项目将使用可持续发展目标指标数据和以加拿大为重点的能源数据集来比较趋势、量化所需变革的规模，并识别每个选项在哪些方面具有最佳杠杆作用。该分析将直接与 2026–2030 年的实际联邦议程相衔接：首先应优先考虑什么、应如何排序以及应关注哪些风险。
 
 Initial Causal Loop Diagram
-![Draft CLD](img/cld-draft.jpg)
+![Draft CLD](img/cld-draft.png)
 
 Key feedback loops
 - **R1 (Reinforcing):** Renewable investment → renewable capacity → renewable share → policy support → renewable investment.  
