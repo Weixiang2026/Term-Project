@@ -18,6 +18,7 @@ Canada already pursues both renewable deployment and energy intensity reduction 
 
 
 2. Key stakeholders
+
 - Federal government (Natural Resources Canada and related departments): sets national priorities, funding, and standards.
 - Provincial and territorial governments: plan power systems and run many efficiency programs.
 - Electric utilities and grid operators: build and operate generation, transmission, and distribution.
@@ -28,6 +29,7 @@ Canada already pursues both renewable deployment and energy intensity reduction 
 - Municipalities and regulators: local permitting, zoning, and community acceptance.
 
 3. References
+
 Canada Energy Regulator. (2025). *Renewable Energy in Canada: Canada overview (electricity generation capacity)*. Government of Canada. https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/electricity/report/canadas-renewable-power/provinces/renewable-power-canada-canada.html
 
 Natural Resources Canada. (2024). *About renewable energy in Canada*. Government of Canada. https://natural-resources.canada.ca/energy-sources/renewable-energy/about-renewable-energy-canada
@@ -43,6 +45,7 @@ United Nations Statistics Division. (2025). *Metadata: Indicator 7.3.1 Energy in
 World Bank. (n.d.). *Energy intensity level of primary energy (MJ/$2021 PPP GDP): EG.EGY.PRIM.PP.KD (metadata)*. World Development Indicators. https://databank.worldbank.org/metadataglossary/world-development-indicators/series/EG.EGY.PRIM.PP.KD
 
 4. Planned datasets 
+
 (1) UN Global SDG Database / SDG API (indicator data for 7.2.1 and 7.3.1):  
    - https://unstats.un.org/sdgs/dataportal/database  
    - https://unstats.un.org/sdgapi/swagger/
