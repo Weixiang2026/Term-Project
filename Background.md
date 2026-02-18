@@ -1,4 +1,4 @@
-1. Background:
+# Background
 
 Canada needs an energy agenda for 2026–2030 that supports four goals at the same time: (1) affordable energy for households and firms, (2) reliable energy supply, (3) lower greenhouse gas (GHG) emissions, and (4) strong investment and job creation. Energy policy choices made during this period will shape Canada’s emissions trajectory, energy costs, and competitiveness for many years. Two policy directions aligned with the United Nations Sustainable Development Goals (SDGs) are especially relevant: expanding the renewable energy share of total final energy consumption (SDG 7.2.1) and reducing energy intensity (SDG 7.3.1).
 
@@ -17,7 +17,7 @@ Key stakeholders in this decision include federal departments such as Natural Re
 Canada already pursues both renewable deployment and energy intensity reduction through existing programs and standards. The central policy question for 2026–2030 is not whether to support clean energy, but where to place the strongest federal priority and how to allocate limited resources to achieve the greatest impact on affordability, reliability, and emissions.
 
 
-2. Key stakeholders
+## Key stakeholders
 
 - Federal government (Natural Resources Canada and related departments): sets national priorities, funding, and standards.
 - Provincial and territorial governments: plan power systems and run many efficiency programs.
@@ -28,7 +28,7 @@ Canada already pursues both renewable deployment and energy intensity reduction 
 - Indigenous governments and communities: rights, benefits, and impacts tied to project siting and land use.
 - Municipalities and regulators: local permitting, zoning, and community acceptance.
 
-3. References
+## References
 
 Canada Energy Regulator. (2025). *Renewable Energy in Canada: Canada overview (electricity generation capacity)*. Government of Canada. https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/electricity/report/canadas-renewable-power/provinces/renewable-power-canada-canada.html
 
@@ -44,7 +44,7 @@ United Nations Statistics Division. (2025). *Metadata: Indicator 7.3.1 Energy in
 
 World Bank. (n.d.). *Energy intensity level of primary energy (MJ/$2021 PPP GDP): EG.EGY.PRIM.PP.KD (metadata)*. World Development Indicators. https://databank.worldbank.org/metadataglossary/world-development-indicators/series/EG.EGY.PRIM.PP.KD
 
-4. Planned datasets 
+## Planned datasets 
 
 (1) UN Global SDG Database / SDG API (indicator data for 7.2.1 and 7.3.1):  
    - https://unstats.un.org/sdgs/dataportal/database  
