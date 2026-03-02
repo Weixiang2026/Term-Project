@@ -1,7 +1,7 @@
 # Data Documentation (Milestone 2)
 
 ## Dataset A — SDG 7.2.1 (Renewable energy share of total final energy consumption)
-- Source (Wo:contentReference[oaicite:27]{index=27}.RNEW.ZS
+- Source: World Bank
 - Web page: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS
 - Access date: 2026-03-01
 - License: CC BY 4.0 (as shown on the World Bank indicator page)
@@ -10,7 +10,7 @@
   - clean_CA_renewables_share_EG.FEC.RNEW.ZS.csv (cleaned, Canada-only, long format)
 
 ## Dataset B — SDG 7.3.1 (Energy intensity of primary energy, MJ per 2021 PPP GDP)
-- Source (World Bank WDI): EG.EGY.PRIM.PP.KD
+- Source: World Bank
 - Web page: https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD
 - Access date: 2026-03-01
 - License: CC BY 4.0 (as shown on the World Bank indicator page)
