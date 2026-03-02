@@ -163,3 +163,11 @@ Further quantitative and systems analysis in Milestone 3 will examine these trad
 - data/  
 - img/  
 - src/  
+
+---
+
+## References (APA)
+
+World Bank. (2024). Renewable energy consumption (% of total final energy consumption) – Canada (EG.FEC.RNEW.ZS). World Development Indicators. https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?locations=CA
+
+World Bank. (2024). Energy intensity level of primary energy (MJ/$2017 PPP GDP) – Canada (EG.EGY.PRIM.PP.KD). World Development Indicators. https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
