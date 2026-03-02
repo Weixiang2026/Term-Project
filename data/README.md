@@ -19,6 +19,6 @@
   - clean_CA_energy_intensity_EG.EGY.PRIM.PP.KD.csv (cleaned, Canada-only, long format)
 
 ## Derived / Combined Dataset
-- Method: merged Da:contentReference[oaicite:28]{index=28} in Excel Power Query
+- Method: Tableau
 - File stored:
   - clean_CA_joined_renewables_intensity.csv
