@@ -2,7 +2,7 @@
 
 ## Dataset A — SDG 7.2.1 (Renewable energy share of total final energy consumption)
 - Source: World Bank
-- Web page: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS
+- Web page: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?end=2021&locations=CA&start=1990&view=chart
 - Access date: 2026-03-01
 - License: CC BY 4.0 (as shown on the World Bank indicator page)
 - Files stored:
@@ -11,7 +11,7 @@
 
 ## Dataset B — SDG 7.3.1 (Energy intensity of primary energy, MJ per 2021 PPP GDP)
 - Source: World Bank
-- Web page: https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD
+- Web page: https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
 - Access date: 2026-03-01
 - License: CC BY 4.0 (as shown on the World Bank indicator page)
 - Files stored:
