@@ -15,7 +15,7 @@
 - Access date: 2026-03-01
 - License: CC BY 4.0 (as shown on the World Bank indicator page)
 - Files stored:
-  - raw_worldbank_EG.EGY.PRIM.PP.KD.xlsx (raw download)
+  - data/7.3.1_Canada_raw_worldbank_EG.EGY.PRIM.PP.KD_DS.xls (raw download)
   - clean_CA_energy_intensity_EG.EGY.PRIM.PP.KD.csv (cleaned, Canada-only, long format)
 
 ## Derived / Combined Dataset
