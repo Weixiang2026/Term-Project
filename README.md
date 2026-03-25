@@ -171,3 +171,18 @@ Further quantitative and systems analysis in Milestone 3 will examine these trad
 World Bank. (2024). Renewable energy consumption (% of total final energy consumption) – Canada (EG.FEC.RNEW.ZS). World Development Indicators. https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?locations=CA
 
 World Bank. (2024). Energy intensity level of primary energy (MJ/$2017 PPP GDP) – Canada (EG.EGY.PRIM.PP.KD). World Development Indicators. https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
+
+
+## Milestone 3: Analysis (Path A — Foundational)
+
+Detailed Milestone 3 analysis is available in [Analysis_Milestone3.md](Analysis_Milestone3.md).
+
+### Milestone 3 Summary
+
+The Milestone 3 analysis applies a systems-thinking approach to evaluate whether Canada should prioritize expanding renewable energy or reducing energy intensity in the 2026–2030 federal energy agenda. Two system archetypes are especially relevant: **Growth and Underinvestment**, which helps explain why renewable expansion can stall when transmission, storage, and permitting lag behind generation goals, and **Shifting the Burden**, which shows how over-reliance on supply-side additions can weaken attention to deeper demand-side solutions.
+
+Three scenarios were developed: a **Status Quo** path, an **Energy Intensity Priority** path, and a **Renewable Expansion Priority** path. The analysis finds that reducing energy intensity is the stronger near-term leverage point because it lowers demand pressure, supports affordability, improves competitiveness, and makes renewable integration easier. Renewable expansion remains essential, but it is more exposed to infrastructure and coordination bottlenecks.
+
+### Implications for the Decision
+
+The evidence suggests that the most defensible 2026–2030 federal priority is to **place greater emphasis on reducing energy intensity while continuing parallel investments in renewable energy**. This sequencing is more likely to deliver near-term system gains and reduce the risk that renewable policy becomes trapped by grid, storage, and permitting constraints.
