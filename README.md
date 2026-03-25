@@ -176,7 +176,7 @@ World Bank. (2024). Energy intensity level of primary energy (MJ/$2017 PPP GDP) 
 
 ## Milestone 3: Analysis (Path A — Foundational)
 
-Detailed Milestone 3 analysis is available in [Analysis_Milestone3.md](Analysis_Milestone3.md).
+Detailed Milestone 3 analysis is available in [Analysis.md](Analysis.md).
 
 ### Milestone 3 Summary
 
