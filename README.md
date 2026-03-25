@@ -172,6 +172,7 @@ World Bank. (2024). Renewable energy consumption (% of total final energy consum
 
 World Bank. (2024). Energy intensity level of primary energy (MJ/$2017 PPP GDP) – Canada (EG.EGY.PRIM.PP.KD). World Development Indicators. https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
 
+---
 
 ## Milestone 3: Analysis (Path A — Foundational)
 
