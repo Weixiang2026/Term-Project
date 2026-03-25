@@ -162,7 +162,7 @@ Further quantitative and systems analysis in Milestone 3 will examine these trad
 - Wrangling.md  
 - data/  
 - img/  
-- src/  
+- src/(not used for Path A)  
 
 ---
 
