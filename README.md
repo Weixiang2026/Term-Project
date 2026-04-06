@@ -46,13 +46,15 @@ This project uses public World Bank SDG indicator data for Canada:
 
 1. **SDG 7.2.1 – Renewable Energy Share**  
    Indicator Code: `EG.FEC.RNEW.ZS`  
-   Unit: `% of total final energy consumption`
+   Unit: `% of total final energy consumption`  
+   Source page: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?end=2021&locations=CA&start=1990&view=chart
 
 2. **SDG 7.3.1 – Energy Intensity**  
    Indicator Code: `EG.EGY.PRIM.PP.KD`  
-   Unit: `MJ per constant 2017 PPP GDP`
+   Unit: `MJ per constant 2017 PPP GDP`  
+   Source page: https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
 
-Cleaned files and documentation are stored in the [`data`](./data) folder.  
+Cleaned files and documentation are stored in the [data](./data) folder.  
 Detailed wrangling notes are provided in [Wrangling.md](./Wrangling.md).
 
 ---
