@@ -1,4 +1,4 @@
-# Canada Energy 2026–2030: Renewables vs Energy Intensity (SDG 7)
+# Canada Energy 2026–2030: Renewables vs. Energy Intensity (SDG 7)
 
 ## Project Title and Decision Statement
 
@@ -10,9 +10,9 @@
 
 ## Executive Summary
 
-Canada’s 2026–2030 energy agenda must balance affordability, reliability, emissions reduction, and long-term competitiveness. This project evaluates two policy priorities aligned with UN Sustainable Development Goal 7: expanding the renewable share of total final energy consumption (SDG 7.2.1) and reducing energy intensity (SDG 7.3.1), which measures how much energy is used per unit of economic output.
+Canada’s 2026–2030 energy agenda must balance affordability, reliability, emissions reduction, and long-term competitiveness. This project evaluates two policy priorities aligned with United Nations Sustainable Development Goal 7: expanding the renewable share of total final energy consumption (SDG 7.2.1) and reducing energy intensity (SDG 7.3.1), which measures how much energy is used per unit of economic output.
 
-The evidence suggests that both strategies matter, but they affect the system differently. Renewable expansion mainly works through supply-side transformation, while energy intensity reduction acts through demand-side change, efficiency, and cost control. The project uses exploratory analysis, systems thinking, and scenario-based interpretation to examine which option gives the federal government the stronger leverage point between 2026 and 2030.
+The evidence suggests that both strategies matter, but they affect the system differently. Renewable expansion mainly works through supply-side transformation, while energy intensity reduction acts through demand-side change, efficiency improvement, and cost control. This project uses exploratory analysis, systems thinking, and scenario-based interpretation to examine which option gives the federal government the stronger leverage point between 2026 and 2030.
 
 The main conclusion is that reducing energy intensity should be the primary federal priority for 2026–2030, while renewable expansion should continue in parallel as a complementary long-term strategy. This sequencing is more likely to reduce system pressure, improve affordability, and make renewable integration easier.
 
@@ -26,7 +26,7 @@ The main conclusion is that reducing energy intensity should be the primary fede
 - [Data Sources](#data-sources)
 - [Exploratory Findings](#exploratory-findings)
 - [System Dynamics](#system-dynamics)
-- [Analysis](#analysis)
+- [Analysis Summary](#analysis-summary)
 - [Recommendations](#recommendations)
 - [Limitations and Future Work](#limitations-and-future-work)
 - [References](#references)
@@ -35,6 +35,8 @@ The main conclusion is that reducing energy intensity should be the primary fede
 ---
 
 ## Background
+
+This project examines a practical federal energy-policy choice: whether Canada should place stronger near-term emphasis on expanding renewable energy supply or on reducing energy intensity across the economy. The decision matters because it affects not only emissions, but also affordability, reliability, infrastructure pressure, and long-term competitiveness.
 
 For full background research, stakeholder analysis, and early decision framing, see [Background.md](./Background.md).
 
@@ -45,14 +47,14 @@ For full background research, stakeholder analysis, and early decision framing, 
 This project uses public World Bank SDG indicator data for Canada:
 
 1. **SDG 7.2.1 – Renewable Energy Share**  
-   Indicator Code: `EG.FEC.RNEW.ZS`  
+   Indicator code: `EG.FEC.RNEW.ZS`  
    Unit: `% of total final energy consumption`  
-   Source page: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?end=2021&locations=CA&start=1990&view=chart
+   [World Bank source page](https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?end=2021&locations=CA&start=1990&view=chart)
 
 2. **SDG 7.3.1 – Energy Intensity**  
-   Indicator Code: `EG.EGY.PRIM.PP.KD`  
+   Indicator code: `EG.EGY.PRIM.PP.KD`  
    Unit: `MJ per constant 2017 PPP GDP`  
-   Source page: https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
+   [World Bank source page](https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA)
 
 Cleaned files and documentation are stored in the [data](./data) folder.  
 Detailed wrangling notes are provided in [Wrangling.md](./Wrangling.md).
@@ -64,22 +66,22 @@ Detailed wrangling notes are provided in [Wrangling.md](./Wrangling.md).
 ### Visualization 1: Renewable Energy Share Trend
 ![Renewable Trend](./img/viz01_renewables_share_trend_sdg721_2000_2021.png)
 
-Canada’s renewable energy share shows a gradual long-term increase, but the pace is modest rather than transformational. This suggests that renewable expansion is happening, but not yet at a scale that guarantees rapid structural change by 2030.
+Canada’s renewable energy share shows a gradual long-term increase, but the pace is modest rather than transformational. This suggests that renewable expansion is happening, but not yet at a scale that guarantees rapid structural change by 2030. For the decision-maker, this means supply-side progress is real but still constrained in speed and scale.
 
 ### Visualization 2: Energy Intensity Trend
 ![Energy Intensity Trend](./img/viz02_energy_intensity_trend_sdg731_2000_2021.png)
 
-Energy intensity declines much more consistently over time. This indicates that Canada has historically made steadier progress in using less energy per unit of economic output.
+Energy intensity declines much more consistently over time. This indicates that Canada has historically made steadier progress in using less energy per unit of economic output. For federal policy, that pattern suggests demand-side action may provide a more reliable short- to medium-term lever.
 
 ### Visualization 3: Dual-Axis Trend Comparison
 ![Dual-Axis Trend](./img/viz03_dual_axis_trends_sdg721_vs_sdg731_2000_2021.png)
 
-Comparing both indicators on the same timeline shows that renewable share and energy intensity move in different ways. Renewable growth is slower and less even, while energy intensity reduction is more stable. This difference matters for policy sequencing.
+Comparing both indicators on the same timeline shows that renewable share and energy intensity move in different ways. Renewable growth is slower and less even, while energy intensity reduction is more stable. This difference matters for policy sequencing because a policy path that improves system performance more steadily may offer stronger near-term value.
 
 ### Visualization 4: Relationship Between Renewable Share and Energy Intensity
 ![Scatter Plot](./img/viz04_scatter_sdg721_vs_sdg731_trendline_2000_2021.png)
 
-The relationship between the two variables appears broadly inverse: higher renewable share tends to align with lower energy intensity. This supports the idea that supply-side and demand-side progress can reinforce one another, even if they do not move in lockstep.
+The relationship between the two variables appears broadly inverse: higher renewable share tends to align with lower energy intensity. This supports the idea that supply-side and demand-side progress can reinforce one another, even if they do not move in lockstep. In practical terms, improving one side of the system may make progress on the other side easier.
 
 ---
 
@@ -98,7 +100,7 @@ The leverage point highlighted in the diagram is **efficiency programs and stand
 
 ---
 
-## Analysis
+## Analysis Summary
 
 Detailed Milestone 3 analysis is available in [Analysis.md](./Analysis.md).
 
@@ -127,6 +129,7 @@ The evidence also supports this sequencing. Natural Resources Canada reports tha
 This recommendation could change under several conditions. If major grid infrastructure, storage, and permitting improvements are implemented faster than expected, renewable expansion may become a stronger near-term priority. Likewise, if provincial policy alignment improves significantly, the federal government may be able to accelerate renewable deployment with fewer system bottlenecks than the current evidence suggests.
 
 The most practical next steps are:
+
 1. expand federal efficiency and retrofit programs for buildings and industry;
 2. tighten equipment and performance standards where feasible;
 3. support demand-side management and electrification measures that reduce energy use per unit of output;
