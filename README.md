@@ -1,189 +1,166 @@
 # Canada Energy 2026–2030: Renewables vs Energy Intensity (SDG 7)
 
-## Decision Statement
+## Project Title and Decision Statement
 
-Should Tim Hodgson, Canada's Minister of Energy and Natural Resources, prioritize expanding renewable energy (SDG 7.2.1) or reducing energy intensity (SDG 7.3.1) in Canada's 2026–2030 federal energy agenda?
+**Decision-maker:** Tim Hodgson, Canada's Minister of Energy and Natural Resources
+
+**Decision:** Should Tim Hodgson, Canada's Minister of Energy and Natural Resources, prioritize expanding renewable energy (SDG 7.2.1) or reducing energy intensity (SDG 7.3.1) in Canada's 2026–2030 federal energy agenda?
 
 ---
 
 ## Executive Summary
 
-Canada’s 2026–2030 energy agenda must balance four core objectives: affordability, reliability, emissions reduction, and long-term competitiveness. Two policy levers aligned with UN Sustainable Development Goal 7 are under consideration: expanding the renewable share of total final energy consumption (SDG 7.2.1) and reducing energy intensity (SDG 7.3.1), defined as energy use per unit of economic output.
+Canada’s 2026–2030 energy agenda must balance affordability, reliability, emissions reduction, and long-term competitiveness. This project evaluates two policy priorities aligned with UN Sustainable Development Goal 7: expanding the renewable share of total final energy consumption (SDG 7.2.1) and reducing energy intensity (SDG 7.3.1), which measures how much energy is used per unit of economic output.
 
-Both strategies contribute to climate goals but operate through different system dynamics. Renewable expansion primarily affects the supply side of the energy system, influencing emissions intensity, infrastructure investment, and grid stability. Energy intensity reduction acts on the demand side, shaping consumption behavior, technological efficiency, and long-term cost structures.
+The evidence suggests that both strategies matter, but they affect the system differently. Renewable expansion mainly works through supply-side transformation, while energy intensity reduction acts through demand-side change, efficiency, and cost control. The project uses exploratory analysis, systems thinking, and scenario-based interpretation to examine which option gives the federal government the stronger leverage point between 2026 and 2030.
 
-The decision is complex because both options compete for fiscal resources, political capital, and implementation capacity. The objective of this project is to use empirical data and systems thinking to clarify tradeoffs, identify feedback structures, and support an evidence-based federal agenda for 2026–2030.
-
-For full background research and stakeholder analysis, see [Background.md](Background.md).
+The main conclusion is that reducing energy intensity should be the primary federal priority for 2026–2030, while renewable expansion should continue in parallel as a complementary long-term strategy. This sequencing is more likely to reduce system pressure, improve affordability, and make renewable integration easier.
 
 ---
 
-# Milestone 2: Data Exploration & System Mapping
+## Table of Contents
+
+- [Project Title and Decision Statement](#project-title-and-decision-statement)
+- [Executive Summary](#executive-summary)
+- [Background](#background)
+- [Data Sources](#data-sources)
+- [Exploratory Findings](#exploratory-findings)
+- [System Dynamics](#system-dynamics)
+- [Analysis](#analysis)
+- [Recommendations](#recommendations)
+- [Limitations and Future Work](#limitations-and-future-work)
+- [References](#references)
+- [Optional Reflection](#optional-reflection)
+
+---
+
+## Background
+
+For full background research, stakeholder analysis, and early decision framing, see [Background.md](./Background.md).
 
 ---
 
 ## Data Sources
 
-This analysis draws on publicly available datasets from the World Bank SDG database:
+This project uses public World Bank SDG indicator data for Canada:
 
 1. **SDG 7.2.1 – Renewable Energy Share**  
-   Indicator Code: EG.FEC.RNEW.ZS  
-   Unit: % of total final energy consumption  
-   Country: Canada  
+   Indicator Code: `EG.FEC.RNEW.ZS`  
+   Unit: `% of total final energy consumption`
 
 2. **SDG 7.3.1 – Energy Intensity**  
-   Indicator Code: EG.EGY.PRIM.PP.KD  
-   Unit: MJ per constant 2017 PPP GDP  
-   Country: Canada  
+   Indicator Code: `EG.EGY.PRIM.PP.KD`  
+   Unit: `MJ per constant 2017 PPP GDP`
 
-The cleaned datasets are stored in the `/data` directory.  
-Full documentation is available in `/data/README.md`.
-
----
-
-## Data Preparation Summary
-
-The raw World Bank data required several cleaning steps:
-
-- Removed missing values for incomplete recent years  
-- Standardized year formats  
-- Converted wide format to long format (where necessary)  
-- Filtered to overlapping years for both indicators  
-- Merged datasets using Year as the key  
-
-Full documentation of all cleaning decisions is provided in **Wrangling.md**.
+Cleaned files and documentation are stored in the [`data`](./data) folder.  
+Detailed wrangling notes are provided in [Wrangling.md](./Wrangling.md).
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Findings
 
-### Visualization 1: Renewable Energy Share Trend (1990–2021)
+### Visualization 1: Renewable Energy Share Trend
+![Renewable Trend](./img/viz01_renewables_share_trend_sdg721_2000_2021.png)
 
-![Renewable Trend](img/viz01_renewables_share_trend_sdg721_2000_2021.png)
+Canada’s renewable energy share shows a gradual long-term increase, but the pace is modest rather than transformational. This suggests that renewable expansion is happening, but not yet at a scale that guarantees rapid structural change by 2030.
 
-Renewable energy share in Canada has shown gradual but uneven growth over the past three decades. The overall trajectory is upward, but the slope is relatively modest. This suggests that structural expansion of renewables is occurring, but not at an accelerated pace.
+### Visualization 2: Energy Intensity Trend
+![Energy Intensity Trend](./img/viz02_energy_intensity_trend_sdg731_2000_2021.png)
 
-For the decision-maker, this indicates that prioritizing renewables may require substantial policy acceleration if ambitious 2030 targets are to be met.
+Energy intensity declines much more consistently over time. This indicates that Canada has historically made steadier progress in using less energy per unit of economic output.
 
----
+### Visualization 3: Dual-Axis Trend Comparison
+![Dual-Axis Trend](./img/viz03_dual_axis_trends_sdg721_vs_sdg731_2000_2021.png)
 
-### Visualization 2: Energy Intensity Trend (1990–2021)
+Comparing both indicators on the same timeline shows that renewable share and energy intensity move in different ways. Renewable growth is slower and less even, while energy intensity reduction is more stable. This difference matters for policy sequencing.
 
-![Energy Intensity Trend](img/viz02_energy_intensity_trend_sdg731_2000_2021.png)
+### Visualization 4: Relationship Between Renewable Share and Energy Intensity
+![Scatter Plot](./img/viz04_scatter_sdg721_vs_sdg731_trendline_2000_2021.png)
 
-Energy intensity has shown a steady long-term decline. This indicates that Canada has gradually improved economic energy efficiency, meaning less energy is used per unit of GDP.
-
-This downward trend suggests that energy efficiency policies have historically produced measurable structural change. For the Minister, this indicates that demand-side interventions may produce more predictable system-wide improvements.
-
----
-
-### Visualization 3: Renewable Share vs Energy Intensity (Relationship)
-
-![Renewable vs Intensity](img/viz03_dual_axis_trends_sdg721_vs_sdg731_2000_2021.png)
-
-The scatter plot comparing renewable share and energy intensity suggests an inverse relationship: as renewable share increases, energy intensity tends to decline.
-
-This relationship supports the hypothesis that supply-side decarbonization and demand-side efficiency improvements may reinforce one another. However, the relationship is not perfectly linear, indicating that other economic and policy variables influence system behavior.
+The relationship between the two variables appears broadly inverse: higher renewable share tends to align with lower energy intensity. This supports the idea that supply-side and demand-side progress can reinforce one another, even if they do not move in lockstep.
 
 ---
 
-### Visualization 4: GDP and Energy Use Dynamics
+## System Dynamics
 
-![GDP Energy](img/viz04_scatter_sdg721_vs_sdg731_trendline_2000_2021.png)
+### Final Causal Loop Diagram
+![Final CLD](./img/cld-final.png)
 
-This visualization explores the relationship between economic growth and energy use. While GDP has grown substantially over time, energy intensity has declined, indicating partial decoupling between economic growth and energy consumption.
+The final causal loop diagram shows why this decision is difficult: both renewable expansion and energy intensity reduction improve the system, but they do so through different feedback structures. The first major loop, **R1: the renewable investment loop**, is reinforcing. More renewable investment increases renewable capacity, which raises the renewable share of energy consumption. As renewable share rises, political and public support for further clean-energy action can also rise, which encourages additional investment. This loop is important because it explains how early renewable success can build momentum over time.
 
-For decision-making, this is critical: it suggests that economic competitiveness and energy efficiency improvements are not inherently contradictory.
+However, the CLD also shows a balancing constraint on this pathway. In **B2: the grid constraint loop**, more renewable capacity increases grid stress and integration needs. That can raise system costs and delays, especially when transmission, storage, and permitting capacity do not expand fast enough. Higher costs and delays can then slow future renewable investment. This means renewable expansion is strategically important, but its short-run performance depends heavily on complementary infrastructure and coordination.
 
----
+The third major loop is **B1: the efficiency-pressure loop**, which centers on energy intensity. When energy intensity is high, energy demand pressure and system costs tend to be higher. Higher pressure and cost create stronger incentives for efficiency programs, standards, and demand-side management. Those interventions reduce energy intensity, which then lowers demand pressure. This is a balancing loop because it works against system strain and stabilizes the energy system over time.
 
-# Refined Causal Loop Diagram
-
-![Refined CLD](img/cld-Milestone2.png)
-
----
-
-## Key Feedback Loops
-
-### R1 – Renewable Investment Loop (Reinforcing)
-
-Renewable Investment → Renewable Capacity → Renewable Share → Political Support → Renewable Investment  
-
-This reinforcing loop suggests that early renewable success can generate momentum through public and political feedback mechanisms.
-
-Evidence: The upward time trend in renewable share supports the existence of cumulative capacity expansion effects.
+The leverage point highlighted in the diagram is **efficiency programs and standards**. This point is attractive because it influences multiple parts of the system at once. Lower energy intensity can reduce demand growth, ease pressure on infrastructure, improve affordability, and make renewable integration easier. For the Minister’s 2026–2030 decision, the CLD suggests that reducing energy intensity is the stronger near-term leverage point, while renewable expansion remains essential as a parallel long-term strategy.
 
 ---
 
-### B1 – Energy Cost Efficiency Loop (Balancing)
+## Analysis
 
-Energy Intensity → Energy Costs → Efficiency Adoption → Energy Intensity  
+Detailed Milestone 3 analysis is available in [Analysis.md](./Analysis.md).
 
-As energy intensity increases, costs rise, encouraging efficiency improvements that reduce intensity.
+The Milestone 3 analysis used the **Foundational (Path A)** approach. It identified two relevant system archetypes: **Growth and Underinvestment** and **Shifting the Burden**. These archetypes explain why renewable expansion can be slowed by grid, storage, and permitting bottlenecks, and why excessive focus on new supply can weaken attention to deeper demand-side solutions.
 
-Evidence: The steady decline in energy intensity over time suggests structural adaptation in response to cost and policy pressures.
+Three scenarios were developed:
 
----
+- **Status Quo:** mixed policy continues without a clear priority
+- **Intervention A:** prioritize reducing energy intensity
+- **Intervention B:** prioritize renewable expansion
 
-### R2 – Economic Growth Pressure Loop (Reinforcing)
-
-GDP Growth → Energy Demand → Infrastructure Expansion → GDP Growth  
-
-Economic expansion increases energy demand, which requires infrastructure investment, supporting further growth.
-
-This loop explains why energy policy must account for macroeconomic feedback.
+Across these scenarios, reducing energy intensity appears to offer the stronger near-term leverage point because it lowers demand pressure, supports affordability, improves competitiveness, and makes renewable integration easier.
 
 ---
 
-## Evidence-Supported Causal Links
+## Recommendations
 
-1. The negative relationship between renewable share and energy intensity is supported by Visualization 3.  
-2. The long-term decline in energy intensity (Visualization 2) supports the balancing efficiency loop.  
-3. GDP growth alongside declining intensity (Visualization 4) supports decoupling dynamics.
+**Recommendation:** Tim Hodgson should make **reducing energy intensity** the primary federal energy priority for 2026–2030, while continuing targeted support for renewable expansion as a complementary strategy rather than the single dominant focus.
 
----
+The main reason is that energy intensity reduction appears to be the more controllable and system-wide leverage point in the short to medium term. In the project data, Canada’s energy intensity improved far more consistently than renewable share expanded. That pattern suggests that demand-side action has historically produced steadier structural change. It also fits the system logic shown in the final CLD: lowering energy intensity reduces demand pressure, eases system costs, improves affordability, and makes renewable integration more manageable. In contrast, renewable expansion remains critical for long-term decarbonization, but it is more exposed to bottlenecks in transmission, storage, grid reliability, and project delivery.
 
-## Implications for the Decision
+This recommendation does **not** mean renewable energy should be deprioritized in an absolute sense. Instead, it means the federal agenda should sequence its efforts more carefully. If the government first pushes harder on energy efficiency, building retrofits, industrial efficiency, appliance standards, and demand-side management, it can reduce the size of the system problem that new clean supply must solve. A lower-intensity economy is easier and cheaper to decarbonize. It is also more resilient if electricity demand grows quickly because of electrification, population growth, or industrial expansion.
 
-The empirical data suggests that energy intensity reduction has historically produced steady, structural improvements in Canada’s energy system. Renewable expansion, while progressing, has advanced more gradually and may require stronger policy acceleration to significantly alter system dynamics by 2030.
+The evidence also supports this sequencing. Natural Resources Canada reports that Canada used 25% less energy per dollar of GDP in 2022 than in 2000, showing meaningful long-run improvement in energy productivity. At the same time, federal clean electricity policy recognizes that demand is growing and that reliability and affordability must be maintained alongside decarbonization. Those facts reinforce the view that a demand-side-first emphasis offers the strongest near-term risk-adjusted payoff.
 
-From a systems perspective, energy intensity reduction appears to activate a balancing loop that stabilizes long-term cost and demand pressures. Renewable expansion activates reinforcing investment loops but may be constrained by infrastructure, grid capacity, and permitting bottlenecks.
+This recommendation could change under several conditions. If major grid infrastructure, storage, and permitting improvements are implemented faster than expected, renewable expansion may become a stronger near-term priority. Likewise, if provincial policy alignment improves significantly, the federal government may be able to accelerate renewable deployment with fewer system bottlenecks than the current evidence suggests.
 
-This evidence suggests that reducing energy intensity may provide a more immediate and controllable leverage point, while renewable expansion remains critical for long-term decarbonization. The strategic question for the Minister is therefore whether to prioritize short-term system stabilization (energy intensity) or long-term structural transformation (renewables).
+The most practical next steps are:
+1. expand federal efficiency and retrofit programs for buildings and industry;
+2. tighten equipment and performance standards where feasible;
+3. support demand-side management and electrification measures that reduce energy use per unit of output;
+4. continue renewable investments that are paired with transmission, storage, and grid modernization; and
+5. monitor annual movement in both SDG 7.2.1 and SDG 7.3.1 so policy priority can be adjusted if system conditions change.
 
-Further quantitative and systems analysis in Milestone 3 will examine these tradeoffs more deeply.
-
----
-
-## Repository Structure
-
-- README.md  
-- Background.md  
-- Wrangling.md  
-- data/  
-- img/  
-- src/(not used for Path A)  
+Additional information that would strengthen this analysis includes province-level data, sector-level energy intensity data, project delivery timelines for grid infrastructure, and more current measures of affordability and reliability impacts.
 
 ---
 
-## References (APA)
+## Limitations and Future Work
 
-World Bank. (2024). Renewable energy consumption (% of total final energy consumption) – Canada (EG.FEC.RNEW.ZS). World Development Indicators. https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?locations=CA
+This project has several limitations. First, it relies mainly on national-level indicator data, which is useful for strategic comparison but too aggregated to capture important regional differences across Canada. Energy systems are shaped by provincial resource mixes, grid structures, industrial composition, and policy design, so a national average can hide important variation.
 
-World Bank. (2024). Energy intensity level of primary energy (MJ/$2017 PPP GDP) – Canada (EG.EGY.PRIM.PP.KD). World Development Indicators. https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
+Second, the project uses a limited number of variables. That makes the analysis clear and focused, but it cannot fully represent all drivers of energy outcomes, such as fuel prices, provincial regulations, sector mix, trade exposure, or technological learning rates. Third, the evidence is better for identifying broad system patterns than for proving causal effects. The CLD is a decision-support tool, not a causal proof on its own.
+
+Future work should extend the analysis with province-level and sector-level data, especially for electricity demand, building efficiency, industrial energy use, and grid constraints. A stronger version of this project could also include a simple forecast model or policy dashboard to compare scenarios under different assumptions.
 
 ---
 
-## Milestone 3: Analysis (Path A — Foundational)
+## References
 
-Detailed Milestone 3 analysis is available in [Analysis.md](Analysis.md).
+World Bank. (2024). *Renewable energy consumption (% of total final energy consumption) – Canada (EG.FEC.RNEW.ZS).* World Development Indicators.
 
-### Milestone 3 Summary
+World Bank. (2024). *Energy intensity level of primary energy (MJ/$2017 PPP GDP) – Canada (EG.EGY.PRIM.PP.KD).* World Development Indicators.
 
-The Milestone 3 analysis applies a systems-thinking approach to evaluate whether Canada should prioritize expanding renewable energy or reducing energy intensity in the 2026–2030 federal energy agenda. Two system archetypes are especially relevant: **Growth and Underinvestment**, which helps explain why renewable expansion can stall when transmission, storage, and permitting lag behind generation goals, and **Shifting the Burden**, which shows how over-reliance on supply-side additions can weaken attention to deeper demand-side solutions.
+Government of Canada. (2024). *Clean Electricity Regulations: maintaining reliability.*
 
-Three scenarios were developed: a **Status Quo** path, an **Energy Intensity Priority** path, and a **Renewable Expansion Priority** path. The analysis finds that reducing energy intensity is the stronger near-term leverage point because it lowers demand pressure, supports affordability, improves competitiveness, and makes renewable integration easier. Renewable expansion remains essential, but it is more exposed to infrastructure and coordination bottlenecks.
+Canadian Centre for Energy Information. (2025). *Energy Fact Book, 2025–2026: Energy efficiency.*
 
-### Implications for the Decision
+Canada Energy Regulator. (2026). *Canada’s Energy Future 2026.*
 
-The evidence suggests that the most defensible 2026–2030 federal priority is to **place greater emphasis on reducing energy intensity while continuing parallel investments in renewable energy**. This sequencing is more likely to deliver near-term system gains and reduce the risk that renewable policy becomes trapped by grid, storage, and permitting constraints.
+---
+
+## Optional Reflection
+
+This project showed me that a good analysis is not only about finding trends in data. It is also about helping a real decision-maker choose between competing options under constraints. What surprised me most was that the “better” policy was not simply the one that seemed more ambitious. Renewable expansion is very important, but the system view showed that it can be slowed by infrastructure bottlenecks. Reducing energy intensity looked less dramatic at first, but it turned out to be a strong leverage point because it affects affordability, demand pressure, and implementation difficulty at the same time.
+
+I also learned that a causal loop diagram can make an analysis much more useful. It helped connect the data, the policy tradeoffs, and the final recommendation in one structure. If I had more time, I would improve the project by adding province-level data and a small forecast component. Overall, this project helped me practice systems thinking, policy analysis, data interpretation, and professional repository presentation.
