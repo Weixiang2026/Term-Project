@@ -49,12 +49,12 @@ This project uses public World Bank SDG indicator data for Canada:
 1. **SDG 7.2.1 – Renewable Energy Share**  
    Indicator Code: `EG.FEC.RNEW.ZS`  
    Unit: `% of total final energy consumption`  
-   [World Bank source page](https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?end=2021&locations=CA&start=1990&view=chart)
+   Source page: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?end=2021&locations=CA&start=1990&view=chart
 
 2. **SDG 7.3.1 – Energy Intensity**  
    Indicator Code: `EG.EGY.PRIM.PP.KD`  
-   Unit: `MJ per constant 2017 PPP GDP`  
-   [World Bank source page](https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA)
+   Unit: `MJ per constant 2021 PPP GDP`  
+   Source page: https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
 
 Cleaned files and documentation are stored in the [data](./data) folder.  
 Detailed wrangling notes are provided in [Wrangling.md](./Wrangling.md).
@@ -154,7 +154,7 @@ Future work should extend the analysis with province-level and sector-level data
 
 World Bank. (2024). *Renewable energy consumption (% of total final energy consumption) – Canada (EG.FEC.RNEW.ZS).* World Development Indicators.
 
-World Bank. (2024). *Energy intensity level of primary energy (MJ/$2017 PPP GDP) – Canada (EG.EGY.PRIM.PP.KD).* World Development Indicators.
+World Bank. (2024). *Energy intensity level of primary energy (MJ/$2021 PPP GDP) – Canada (EG.EGY.PRIM.PP.KD).* World Development Indicators.
 
 Government of Canada. (2024). *Clean Electricity Regulations: maintaining reliability.*
 
