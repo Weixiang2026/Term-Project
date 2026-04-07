@@ -43,7 +43,7 @@ United Nations Statistics Division. (2025). *Metadata: Indicator 7.3.1 Energy in
 
 World Bank. (n.d.). *Energy intensity level of primary energy: EG.EGY.PRIM.PP.KD (metadata).* World Development Indicators. https://databank.worldbank.org/metadataglossary/world-development-indicators/series/EG.EGY.PRIM.PP.KD
 
-## Planned Datasets
+## Data Sources and Supporting Sources
 
 1. **UN Global SDG Database / SDG API (indicator data for 7.2.1 and 7.3.1)**  
    - https://unstats.un.org/sdgs/dataportal/database  
