@@ -5,7 +5,7 @@
 - Web page: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?end=2021&locations=CA&start=1990&view=chart
 - Access date: 2026-03-01
 - License: CC BY 4.0 (as shown on the World Bank indicator page)
-- Files stored:
+- Files stored in this folder:
   - 7.2.1_Canada_raw_worldbank_EG.FEC.RNEW.ZS_DS2_en_excel_v2_68.xls (raw download)
   - 7.2.1_clean_Canada_renewables_share_EG.FEC.RNEW.ZS.csv (cleaned, Canada-only, long format)
 
@@ -14,13 +14,15 @@
 - Web page: https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD?locations=CA
 - Access date: 2026-03-01
 - License: CC BY 4.0 (as shown on the World Bank indicator page)
-- Files stored:
+- Files stored in this folder:
   - 7.3.1_Canada_raw_worldbank_EG.EGY.PRIM.PP.KD_DS.xls (raw download)
   - 7.3.1_clean_Canada_energy_intensity_EG.EGY.PRIM.PP.KD.csv (cleaned, Canada-only, long format)
 
 ## Derived / Combined Dataset
-- Method: Tableau
-- File stored:
-  - 7.2.1_clean.twbx
-  - 7.3.1_clean.twbx
+- Method: Tableau and Excel
+- File stored in this folder:
   - combined_CA_renewables_share_and_energy_intensity_by_year.csv
+
+## Related Source Files Stored Elsewhere in the Repository
+- `src/tableau/7.2.1_clean.twbx`
+- `src/tableau/7.3.1_clean.twbx`
